@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity(), MyAsyncCallback {
     override fun onPostExecute(result: String) {
         tv_status = findViewById(R.id.tv_status)
         tv_desc = findViewById(R.id.tv_desc)
-        
+
         tv_status.setText(R.string.status_post)
         tv_desc.text = result
     }
